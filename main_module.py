@@ -8,3 +8,4 @@ processed_text = ReplaceTermin(pdf_text, terminology_dict)
 rows = processed_text.split('\n')
 CreateCsv(csv_name, rows)
 print("Gemacht!")
+
