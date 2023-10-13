@@ -24,3 +24,11 @@ processed_text_3 = ReplaceTermin(pdf_text_3, terminology_dict)
 rows_3 = processed_text_3.split('\n')
 CreateCsv(csv_name_3, rows_3)
 print("Третий файл обработан!")
+
+pdf_name_4 = 'Eml.pdf'
+csv_name_4 = 'output_new4.csv'
+pdf_text_4 = ReadFile(pdf_name_4)
+processed_text_4 = ReplaceTermin(pdf_text_4, terminology_dict)
+rows_4 = processed_text_4.split('\n')
+CreateCsv(csv_name_4, rows_4)
+print("Четвёртый файл обработан!")
