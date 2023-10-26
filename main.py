@@ -32,3 +32,43 @@ processed_text_4 = ReplaceTermin(pdf_text_4, terminology_dict)
 rows_4 = processed_text_4.split('\n')
 CreateCsv(csv_name_4, rows_4)
 print("Четвёртый файл обработан!")
+
+pdf_name_5 = 'Kiselev_1.pdf'
+csv_name_5 = 'output_new5.csv'
+pdf_text_5 = ReadFile(pdf_name_5)
+processed_text_5 = ReplaceTermin(pdf_text_5, terminology_dict)
+rows_5 = processed_text_5.split('\n')
+CreateCsv(csv_name_5, rows_5)
+print("Пятый файл обработан!")
+
+pdf_name_6 = 'Kiselev_2.pdf'
+csv_name_6 = 'output_new6.csv'
+pdf_text_6 = ReadFile(pdf_name_6)
+processed_text_6 = ReplaceTermin(pdf_text_6, terminology_dict)
+rows_6 = processed_text_6.split('\n')
+CreateCsv(csv_name_6, rows_6)
+print("Пятый файл обработан!")
+
+pdf_name_7 = 'Kiselev_3.pdf'
+csv_name_7 = 'output_new7.csv'
+pdf_text_7 = ReadFile(pdf_name_7)
+processed_text_7 = ReplaceTermin(pdf_text_7, terminology_dict)
+rows_7 = processed_text_7.split('\n')
+CreateCsv(csv_name_7, rows_7)
+print("Шестой файл обработан!")
+
+pdf_name_8 = 'Kiselev_4.pdf'
+csv_name_8 = 'output_new8.csv'
+pdf_text_8 = ReadFile(pdf_name_8)
+processed_text_8 = ReplaceTermin(pdf_text_8, terminology_dict)
+rows_8 = processed_text_8.split('\n')
+CreateCsv(csv_name_8, rows_8)
+print("Седьмой файл обработан!")
+
+pdf_name_9 = 'Kiselev_5.pdf'
+csv_name_9 = 'output_new9.csv'
+pdf_text_9 = ReadFile(pdf_name_9)
+processed_text_9 = ReplaceTermin(pdf_text_9, terminology_dict)
+rows_9 = processed_text_9.split('\n')
+CreateCsv(csv_name_9, rows_9)
+print("Восьмой файл обработан!")
