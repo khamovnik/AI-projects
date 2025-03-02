@@ -138,6 +138,7 @@ def parse_results_koagulogram(text):
                 list(map(lambda x: float(x.replace(',', '.')), match[2].split('-')))) for match in matches]
     return results
 
+MODEL_PATH = "ml_model_2.pkl"
     
 def train_basic_model():
     X = [[20], [50], [23], [40], [3], [200], [4], [10], [87], [150], [200], [500], [60], [100], [1], [200]]
